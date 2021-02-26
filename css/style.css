@@ -1,1 +1,38 @@
+.container .navbar {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+ }
+banner {
+    font-family: serif;
+    
+}
+.bar-button{
+    color: transparent;
+    text-decoration: none;
+}
 
+a:link{
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    margin: 10px;
+}
+div.inq{
+    font-size: large;
+}
+
+.first-background{
+    background-image: url("./img/campaign-background.png")
+}            
+#nbf{
+    font-size: 150%;
+}
+
+.gradient{
+    background-image: gradient(rgba(4,85,207, 100));
+
+}

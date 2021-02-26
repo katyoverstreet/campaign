@@ -1,1 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campaign Webpage</title>
+    <script src="js/main.js" async></script>
+    <!-- add bootstrap styles and JS here -->
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</head>
+<body class= "gradient">
+    
+    <a name="top"></a>
+    <nav class="navbar navbar-expand-lg navbar-light container-fluid" style="background-color: #0045b5;">
+        <span class="d-flex flex-row align-right"> <!--Might have to change this to div, tryng to figure ot the containner row thing without having a block element right there. I thought it would mess it up, but maybe it's actually what it needs.-->
+            <button class="p-2 btn btn-primary-outline"><a href="#top">Home</a></button>
+            <button class="p-2 btn btn-primary-outline"><a href="#about">About</a></button>
+            <button class="p-2 btn btn-primary-outline"><a href="#issues">Issues</a></button>
+            <button class="p-2 btn btn-primary-outline"><a href="#events">Events</a></button>
+            <button class="p-2 btn btn-primary-outline"><a href="#contact">Contact Us</a></button>
+            <button class="p-2 btn btn-primary-outline"><a href="#donate">Donate</a></button>
+      </nav>
+      <div>
+    
+
+    <div class="container first-background">
+        <div class="row justify-content-left">
+            <div class="col-8 text-end my-auto display-1">
+                
+                    <banner>Edna Mode<br>for Fayette<br>County Constable
+                    </banner>
+                    <div class="inq"><q>I never look back, dahling. It distracts from the now.</q> <br>-Edna Mode</div>
+                
+            </div>
+            <div class="col-4 text-end mx-auto">
+                <img src="img/edna-1.png" class="img-fluid">
+            </div>
+            
+        </div>
+       
+    </div>
+</div>
+
+            <div class="justify-content-center" id="events"> <b id="nbf">Events</b> 
+                <table class="table">
+                    <thead>
+                        <tr>
+
+                            <th scope="col">Date</th>
+                            <th scope="col">Location</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">August 19<sup>th</sup>, 2021</th>
+                            <td><a class="pe-auto">Municiville</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">September 7<sup>th</sup>, 2021</th>
+                            <td><a class="pe-auto">Metroville Stadium</a></td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">November 12<sup>th</sup>, 2021</th>
+                            <td><a class="pe-auto">Warehouse District, Metroville</a></td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">December 10<sup>th</sup>, 2021</th>
+                            <td><a class="pe-auto">Nomisan Island</a></td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">January 25<sup>th</sup>, 2021</th>
+                            <td><a class="pe-auto">Metroville</a></td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+       <div class="container" id="about">
+           <div class="row">
+            <div class="col">
+                <img src="img/edna-2.jpg" class="card-img-top img-fluid ">
+              </div>
+              <div class="col" id="issues">
+                <strong>Fashion</strong>
+                Edna Mode will take a serious approach to improve the fashion of all citizens under her jurisdiction.
+
+              </div>
+            </div>
+            <div class="row-reverse">
+                <div class="col">
+                    <img src="./img/edna-3.png" class="card-img-top img-fluid img-thumbnail">
+                  </div>
+                  <div class="col">
+                    <strong>Safety</strong>
+                    When in doubt, bulletproof. Edna Mode believes that bulletproof everything is the best way to go.
+                  </div>
+                  
+                </div>
+            <div class="row">
+                <div class="col">
+                    <img src="img/edna-4.jpg" class="card-img-top img-fluid">
+                    </div>
+                    <div class="col">
+                        <strong>Superheroes</strong>
+                        Edna Mode believes that superheroes are an integral part of society and she will support their efforts (and of course, make their suits).
+                    </div>
+                      
+                </div>
+          </div>
+
+    <div>
+        &nbsp; 
+    </div>
+    
+    <div>
+        &nbsp;
+    </div>
+
+    
+    <!--Bring in svg's from contact card. Maybe change hover color.
+    Also need to add email for volunteers-->
+    <div class="container" id="contact">
+        <footer>You can contact us through our phone number or email at any time. Our staff should respond to you within 24 hours! &nbsp;
+            Phone: 000-000-0000
+            Email: info@ednamode.com
+            
+            <div>Email us at volunteer@ednamode.com for more information about how you can help today!</div>
+        </footer>
+    </div>
+    <div>
+        &nbsp;
+    </div>
+
+    <!-- Bootstrap Bundle-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+</body>
+</html>
+  
